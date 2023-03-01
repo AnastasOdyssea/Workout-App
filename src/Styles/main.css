@@ -5,13 +5,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+   
+   
 }
 
 :root{
     --mainColor:#426599;
     --mainColorLight:#22242e;
     --secondaryColor:#88246c;
-    --textColor:#eee;
+    --textColor:#000000;
     }
 
     header{
