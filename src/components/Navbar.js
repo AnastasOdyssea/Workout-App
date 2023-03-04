@@ -13,8 +13,8 @@ return(
         <header>
             <h3>RA</h3>
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="/#">Profile</a>
+                <a href="/#Home">Home</a>
+                <a href="/#LogIn">Log In</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>
