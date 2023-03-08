@@ -3,13 +3,18 @@ import {LogIn} from "./components/LogIn";
 import {Register} from "./components/Register";
 import Navbar from "./components/Navbar";
 
+
 function App() {
   const[currentForm, setCurrentForm] = useState('login');
+ 
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  }
   return (
    <React.Fragment>
     <Navbar />
    {
-    currentForm === "login" ? <LogIn /> : <Register />
+    currentForm === "login" ? <LogIn onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm}/>
    }
     
 
