@@ -1,10 +1,53 @@
-.auth-form-container, .login-form, .register-form{
+body{
+    background-image:linear-gradient(79deg, #e5beeb, 48%,#b8cbdb); ;
+}
+
+.auth-form-container,.login-form, .register-form {
     text-align: center;
     display:flex;
     flex-direction: column;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(79deg, #e5beeb, 48%,#b8cbdb);
+    color: white;
+  }
+  .auth-form-container{
+
+    padding: 5px;
+    margin: 600px 600px 0 600px;
+    height: 5vh;
+    
+  
+
+}
+
+
+label{
+   
+    padding: 0.5rem 0;
+}
+
+input{
+    margin:0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button{
+    padding-top: 0px;
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px){
    
 }
