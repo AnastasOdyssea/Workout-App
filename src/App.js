@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import {LogIn} from "./components/LogIn";
 import {Register} from "./components/Register";
 import Navbar from "./components/Navbar";
-import Home from './components/Home';
-import './logo.jpg';;
+import Home from "./components/Home"
+
 
 
 function App() {
@@ -15,9 +15,8 @@ function App() {
   return (
     
    <React.Fragment>
- 
-    <Navbar />
-    <Home />
+  <Navbar />
+ <Home />
    
    {
     currentForm === "login" ? <LogIn onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm}/>
