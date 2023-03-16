@@ -5,7 +5,7 @@ import "../Styles/Home.css";
 function Home() {
     return(
         <div className="img"> 
-<img src={require('../images/photo-1553969546-6f7388a7e07c.avif')} alt='run' />
+<img src={require('../images/istockphoto-1366052585-170667a.jpg')} alt='run' />
         </div>
         
         );
