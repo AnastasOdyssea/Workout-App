@@ -3,9 +3,8 @@ import {LogIn} from "./components/LogIn";
 import {Register} from "./components/Register";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import {Numbers} from "./components/Numbers";
-import Converter from "./components/Converter";
-import ZeroTimer from "./components/ZeroTimer";
+import {Distance} from "./components/Distance";
+import Timer from "./components/Timer";
 
 
 
@@ -21,9 +20,10 @@ function App() {
    <React.Fragment>
   <Navbar />
  <Home />
- <Numbers />
- <Converter />
- <ZeroTimer />
+ <Distance />
+
+ 
+ <Timer />
  
    
    {

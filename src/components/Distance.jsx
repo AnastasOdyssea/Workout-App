@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 
 
- export const Numbers = (props) => {
+
+ export const Distance = (props) => {
     const [distance,setDistance] = useState(0);
    
     function incrementDistance(){
@@ -11,7 +12,7 @@ import React, {useState} from "react";
     return (
 
         <div >
-            <p>Distance</p>
+            <h1>Distance</h1>
     <button onClick={incrementDistance}> {distance} km</button>
    
   
@@ -19,4 +20,5 @@ import React, {useState} from "react";
        </div>
     )
 }
+
 
