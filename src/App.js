@@ -3,8 +3,8 @@ import {LogIn} from "./components/LogIn";
 import {Register} from "./components/Register";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import {Distance} from "./components/Distance";
-import Timer from "./components/Timer";
+import Distance from "./components/Distance";
+
 
 
 
@@ -23,7 +23,7 @@ function App() {
  <Distance />
 
  
- <Timer />
+
  
    
    {
