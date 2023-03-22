@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 
 function Distance() {
-  const [distance, setDistance] = useState(0); // starting distance in meters
+  const [distance, setDistance] = useState(0); // starting distance in kilometers
   const [time, setTime] = useState(0); // starting time in seconds
   const [isRunning, setIsRunning] = useState(false); // is the timer running?
   
@@ -12,10 +12,10 @@ function Distance() {
     
     if (isRunning) {
       intervalId = setInterval(() => {
-        // decrease distance by 1 meter every second
-        setDistance(distance => distance + 1);
+     
+        setDistance(distance => distance + 0.01);
         
-        // decrease time by 1 second
+       
         setTime(time => time + 1);
       }, 1000);
     }
@@ -40,9 +40,9 @@ function Distance() {
 
   return (
     <div>
-      <p>Distance: {distance} meters</p>
+      <p>Distance: {distance} km</p>
     
-      <p>Time:{dispSecondsAsMins(time)}</p>
+      <p>Time:{dispSecondsAsMins (time) } </p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
     </div>
