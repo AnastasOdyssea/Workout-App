@@ -4,6 +4,7 @@ import {Register} from "./components/Register";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Distance from "./components/Distance";
+import Signs from "./components/Signs";
 
 
 
@@ -22,6 +23,7 @@ function App() {
  <Home />
  <Distance />
 
+ <Signs />
  
 
  
@@ -31,6 +33,7 @@ function App() {
    }
     
     </React.Fragment>
+   
   );
 }
 

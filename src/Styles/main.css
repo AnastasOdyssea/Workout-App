@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
     
    
 }
@@ -14,6 +15,7 @@
     --mainColorLight:#22242e;
     --secondaryColor:#88246c;
     --textColor:#000000;
+   
     }
 
     header{
@@ -24,6 +26,7 @@
         padding: 0 2rem;
         background-color: var(--mainColor);
         color: var(--textColor);
+       
     }
 
     nav a{
@@ -68,6 +71,7 @@
             background-color:  var(--mainColorLight);
             transition: 1s;
             transform: translateY(-100vh);
+            z-index: 100;
         }
 
         header .responsive_nav{

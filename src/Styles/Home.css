@@ -1,15 +1,47 @@
-.each-slide-effect > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  background-size: cover;
-    height: 350px;
-    width:550px;
-  }
+@media (min-width: 480px) {
+
+ 
+  .each-slide-effect  > div {
+   
   
-  .each-slide-effect span {
-    padding: 20px;
-    font-size: 20px;
-    background: #efefef;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+  
+ 
+  
+   
+   
+  
   }
+   
+  .image{
+   background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+   margin: auto;
+  
+  }
+   
+
+}
+
+
+  
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 

@@ -1,6 +1,7 @@
 
 
 import React, { useState, useEffect } from "react";
+import  "../Styles/Distance.css";
 
 function Distance() {
   const [distance, setDistance] = useState(0); // starting distance in kilometers
@@ -40,11 +41,14 @@ function Distance() {
 
   return (
     <div>
-      <p>Distance: {distance} km</p>
-    
-      <p>Time:{dispSecondsAsMins (time) } </p>
-      <button onClick={handleStart}>Start</button>
-      <button onClick={handleStop}>Stop</button>
+      <div className="numbers">
+      <p className="distance">Distance: {distance} km</p>
+      <p className="time">Time:{dispSecondsAsMins (time) } </p>
+      </div>
+      <div className="buttons">
+      <button className="button1" onClick={handleStart}>Start</button>
+      <button className="button1" onClick={handleStop}>Stop</button>
+      </div>
     </div>
   );
 }

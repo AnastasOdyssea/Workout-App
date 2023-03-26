@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
+ 
   }
   .auth-form-container{
 
@@ -47,6 +48,4 @@ button{
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1024px){
-   
-}
+
