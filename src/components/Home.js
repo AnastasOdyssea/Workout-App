@@ -1,17 +1,9 @@
 import React from 'react';
-
 import {  Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import  "../Styles/Home.css";
 
-
-
-
-
-  
-   
-    
-    const Home = () => {
+const Home = () => {
         
         const images = [
             "https://media.istockphoto.com/id/1423623590/photo/three-runners-sprinting-outdoors-sportive-people-training-in-a-urban-area-healthy-lifestyle.jpg?s=612x612&w=0&k=20&c=GvranXFFiJdGOdfpYU2CBcMSY48rQ62HkWoJw9L6oNY=",
@@ -20,35 +12,24 @@ import  "../Styles/Home.css";
         ];
 
         const settings = {
-            arrows:false,
+            arrows:true,
             speed: 500,
             };
         
-    
-        return (
+         return (
             <Slide {...settings}>
-               
-                <div className="each-slide-effect">
+               <div className="each-slide-effect">
                     <div className="image" style={{ 'backgroundImage': `url(${images[0]})` }}>
-                  
-          </div>
-                      
+                    </div>
                 </div>
                 <div className="each-slide-effect">
                     <div className="image" style={{ 'backgroundImage': `url(${images[1]})` }}>
-                       
                     </div>
-                </div>
+                </div>  
                 <div className="each-slide-effect">
                     <div className="image" style={{ 'backgroundImage': `url(${images[2]})` }}>
-                        
                     </div>
-                </div>
-              
-                
-
-             
-               
+                </div> 
             </Slide>
         );
     };

@@ -10,7 +10,7 @@ export const LogIn = (props) =>{
         console.log(email);
     } 
     return (
-        <div className="auth-form-container">
+    <div className="auth-form-container">
        <form className="login-form" onSubmit={handleSubmit}>
        <label htmlFor="email">Email:</label>
         <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="youremail@gmail.com" id="email" name="email" />
@@ -19,6 +19,6 @@ export const LogIn = (props) =>{
        <button type="submit">Log In</button>
        </form>
        <button className="button" onClick={() => props.onFormSwitch('register')}>Don't have an account? Sign in</button>
-       </div>
+    </div>
     )
 }
