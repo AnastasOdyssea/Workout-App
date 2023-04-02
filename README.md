@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Workout App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app that tracks the distance that someone covers when swimming,running and cycling. 
 
-## Available Scripts
 
-In the project directory, you can run:
 
 ### `npm start`
 
