@@ -26,12 +26,7 @@ function Distance() {
     });
   }, []);
 
-  function stopActivity() {
-    navigator.geolocation.getCurrentPosition((position) => {
-      setCurrentPosition(position.coords);
-    });
-   
-  }
+  
 
   function calculateDistance(position1, position2) {
     const lat1 = position1.latitude;
@@ -65,7 +60,7 @@ function Distance() {
    
     <div className='numbers'>
       <button className='buttons' onClick={startActivity}>Start<br></br> Activity</button>
-      <button className='buttons' onClick={stopActivity}>Stop<br></br> Activity</button>
+    
       {distance  && <p>Distance:  {distance} meters</p> }
     </div>
   );
